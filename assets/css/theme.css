@@ -52,6 +52,7 @@ Updated	 :	10.22.2018
 }
 .button{
 	background: #383838;
+	background-image: linear-gradient(315deg, #2c1806 0%, #000000 77%) !important;
 }
 .button:hover {
 	background: #FFC107;
