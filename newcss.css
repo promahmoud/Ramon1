@@ -328,7 +328,6 @@ video {
   .latest-news p::after{
     content: '';
     position: absolute;
-    /* top: 0; */
     left: 0;
     bottom: -12px;
     border-bottom: 2px solid #898989;
@@ -337,14 +336,24 @@ video {
     /* padding: 3px; */
     text-align: center;
   }
+  .content-general-news{
+    height: 435px;
+  }
   #twitter-widget-0,#twitter-widget-1{
       height:400px !important;
+  }
+  .insta iframe{
+    height: 400px;
+  }
+  .owl-controls{
+    margin-top:20px;
   }
   .owl-theme .owl-dots {
     left: 0px
   }
   .ckin__player.default  {
     margin-bottom: 30px !important;
+    margin-top: 25px;
   }
   /* Footer */
   .footer-section{
@@ -373,6 +382,13 @@ video {
   #twitter-widget-0,#twitter-widget-1{
       height:400px !important;
   }
+   /* plugin instagram */
+   .insta iframe{
+    height: 400px;
+  }
+  .owl-controls{
+    margin-top:20px;
+  }
   .owl-theme .owl-dots {
     left: 0px !important;
   }
@@ -390,9 +406,11 @@ video {
   }
   .ckin__player.default  {
     margin-bottom: 30px !important;
+    margin-top: 25px;
   }
+ 
    /* Footer */
-   .footer-section{
+  .footer-section{
     margin-top: 15px;
   }
   
@@ -404,6 +422,7 @@ video {
       width: 80%;
       margin: auto;
       margin-bottom: 27px !important;
+      margin-top: 45px;
   }
   .latest-news .carousel {
       position: relative;
