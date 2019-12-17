@@ -10,7 +10,6 @@ p,
 }
 
 .bg-image-loaded {
-    background-image: url(images/master-banner.jpg) !important;
 }
 
 .navigation {
@@ -35,12 +34,8 @@ video {
     position: relative;
 }
 
-/* .latest-news .title  {
-    position: absolute;
-    left: -65px;
-    top: 8em;
-    transform: rotate(-90deg);
-} */
+
+
 
 .latest-news .title h6 {
     text-transform: Uppercase;
@@ -230,6 +225,85 @@ video {
 .contact-section{
   box-shadow: 0px -2px 9px 2px #a5a1a1;
 }
+
+/* ------- */
+
+.features-section .carousel {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 21px;
+  border-radius: 27px;
+  /* box-shadow: 0px 0px 10px 3px #474646; */
+  width: 97%;
+}
+
+.features-section .carousel-inner>.item img {
+  width: 100%;
+  height: 340px;
+}
+
+@media screen and (min-width: 768px) {
+  .features-section .carousel-indicators {
+      bottom: -11px;
+  }
+}
+
+.features-section {
+  position: relative;
+}
+
+.section-head{position: relative;}
+
+.features-section p,
+.content-wrap .write-up p {
+  font-size: 15px;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #716464;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 24px;
+}
+/* ***** */
+.timeline-about {
+  /* margin-top: 10px; */
+  padding: 20px;
+  padding-top: 0;
+  background: #f6f6f6;
+  margin-top: 0;
+  box-shadow: 0px 6px 10px 3px #f6f6f6;
+}
+.timeline-about .showcase{padding-top: 20px;}
+.content-wrap {
+  margin-top: 0;
+  border-top: unset;
+  /* background: #ececec; */
+  
+}
+.content-wrap section {
+  padding-top: 0px;
+}
+.timeline-about .showcase .caption p {
+  font-size: 13px;
+  color: #938a8a;
+}
+.timeline-about .showcase .wrap img {
+  box-shadow: 0 0 10px 2px #b9b6b6;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+.timeline-about .showcase .wrap:hover img { 
+  transform: scale(1.04);
+}
+
+.timeline-about .showcase .wrap:hover .img {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.timeline-about .showcase .wrap {
+  margin-bottom: 10px;
+}
+
 /* ****************************End About page******************************** */
 /* Responsive */
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -354,16 +428,10 @@ video {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .overflow-scroll {
-      /* overflow: hidden !important; */
-      /* overflow-y: hidden !important; */
-  }
   .about-section {
       background: #000;
-      /* height: 350px; */
   }
   .tab-fix {
-      /* height: 302px !important; */
       padding-top: 15px;
   }
   .latest-news .item{
@@ -377,216 +445,8 @@ video {
   .content-general-news .thumb{
     padding-right: 0;
     }
-  /* .latest-news p {
-    width: 80%;
-  } */
 
 
 }
 
 /* ************************************************** */
-/* ************************************************** */
-
-/* Top social icon */
-/*------------------------*/
-.basr-social-share {
-  position: absolute;
-  top: 0px;
-  right: -15%;
-  width: 25%;
-  display: block;
-  text-align:center;
-  padding:0 auto;
-  margin:5em auto;
-}
-
-.social ul {
-list-style: none;
-padding-left: 0;
-padding-right: 0;
-display: block;
-}
-.social ul li {
-border: 5px solid #512e12;
-border-radius: 50%;
-position: relative;
-width: 60px;
-height: 60px;
-text-align: center;
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-@media only screen and (max-width: 480px) {
-.social ul li {
-  border-width: 4px;
-  width: 45px;
-  height: 45px;
-}
-}
-.social ul li:not(:last-child) {
-margin-bottom: 10px;
-}
-.social ul li:before {
-content: '';
-border-radius: 50%;
--webkit-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
--ms-box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
-box-shadow: inset 0 0px 3px rgba(149, 90, 42, 0.28), 0px 0px 0px 2px rgba(149, 90, 42, 0.28);
-display: block;
-position: absolute;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
--o-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
-width: 60px;
-height: 60px;
-opacity: 0.35;
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-@media only screen and (max-width: 480px) {
-.social ul li:before {
-  width: 43px;
-  height: 43px;
-}
-}
-.social ul li:hover {
-  transform: translateY(-2px);
-border-color: rgb(165, 126, 7);
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-.social ul li:hover:before {
--webkit-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
--ms-box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
-box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-.social ul li:hover i {
-color:rgb(165, 126, 7);
--webkit-stroke-width: 5.3px;
--webkit-stroke-color: rgb(165, 126, 7);
--webkit-fill-color: rgb(165, 126, 7);
-text-shadow: 1px 0px 20px rgb(165, 126, 7);
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-.social ul li a {
-border-radius: 50%;
-display: block;
-position: absolute;
-top: -5px;
-left: -5px;
-width: 60px;
-height: 60px;
-line-height: 60px;
-}
-@media only screen and (max-width: 480px) {
-.social ul li a {
-  background-size: cover;
-  top: -5px;
-  left: -5px;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-}
-}
-
-@media only screen and (max-width: 480px) {
-.social ul li a:before {
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-}
-}
-
-@media only screen and (max-width: 480px) {
-.social ul li a:after {
-  background-size: cover;
-  width: 30px;
-  height: 30px;
-}
-}
-.social ul li a:hover:before {
-opacity: 1;
--webkit-transform: translate(-50%, -50%) rotate(360deg);
--ms-transform: translate(-50%, -50%) rotate(360deg);
-transform: translate(-50%, -50%) rotate(360deg);
--webkit-transition: all 0.3s ease;
--moz-transition: all 0.3s ease;
--o-transition: all 0.3s ease;
-transition: all 0.3s ease;
-}
-.social ul li a:hover:after {
-opacity: 0;
--webkit-transform: translate(-50%, -50%) rotate(360deg);
--ms-transform: translate(-50%, -50%) rotate(360deg);
-transform: translate(-50%, -50%) rotate(360deg);
--webkit-transition: all 0.3s ease;
--moz-transition: all 0.3s ease;
--o-transition: all 0.3s ease;
-transition: all 0.3s ease;
-}
-.social ul li a i {
-color: #83817f;
-font-size: 23px;
-font-weight: 900;
-position: absolute;
-top: 50%;
-left: 50%;
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
--o-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
--webkit-stroke-width: 5.3px;
--webkit-stroke-color: #ffead3;
--webkit-fill-color: #ffead3;
-/* text-shadow: 1px 0px 20px #ffead3; */
--webkit-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
-transition: all 0.3s ease 0s;
-}
-@media only screen and (max-width: 480px) {
-.social ul li a i {
-  font-size: 16px;
-}
-}
-.social ul li a i.fa-envelope {
-font-size: 14px;
-top: 48%;
-}
-.k2t-footer.dark-style .social li a,
-.dark-style .social li a {
-color: #fff;
-}
-.k2t-footer.dark-style .social li a:hover,
-.dark-style .social li a:hover {
-color: #fff;
-}
-.basr-social-share.social li:hover a {
-color: #898989;
-}
-.basr-social-share.social li a {
-border-width: 0;
-color: #cccccc;
-}
-.basr-social-share.social li a:hover {
-color: #898989;
-}
-.basr-social-share.social li a span {
-display: none;
-}
