@@ -222,7 +222,8 @@ video {
 }
 
 /* Resume page */
-.tabs-style-iconbox nav ul li.tab-current a{
+.tabs-style-iconbox nav ul li.tab-current a,
+.tabs-style-bar nav ul li.tab-current a{
   background-image: linear-gradient(315deg, #2c1806 0%, #000000 77%) !important;
 }
 .contact-form,
