@@ -338,7 +338,6 @@
 		autoplay: true,
 		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
-		animateOut: 'fadeOut',
 		navText: [
 			"<i class='fa fa-caret-left'></i>",
 			"<i class='fa fa-caret-right'></i>"
