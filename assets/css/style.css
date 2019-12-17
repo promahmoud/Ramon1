@@ -6220,6 +6220,9 @@ Time line style
 	height: 94px;
 	width: 100%;
 	object-fit: cover;
+	border: 3px solid #9c9a9a;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 /* @v131 -s */
