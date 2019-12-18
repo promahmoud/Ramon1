@@ -6521,7 +6521,7 @@ Time line style
 
 .latest-news .news-link a h5:hover {
 	transition: all .4s ease;
-	color: #ffc107;
+	color: #aa8e3b;
 	text-decoration: underline;
 }
 
@@ -6534,8 +6534,9 @@ Time line style
 	border-radius: 10px;
 	transition: all .4s ease;
 }
-.latest-news .thumb img:hover{
+.latest-news .thumb img:hover {
 	border-color: #ffc107;
+	border-color: #aa8e3b;
 }
 /* @v131 -s */
 /* End */
