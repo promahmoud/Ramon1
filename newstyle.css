@@ -17,8 +17,7 @@ html {
 @media (min-width: 992px){
 .is-home-page .navigation {
     top: 0 !important;
-    padding: 8px 0px;
-
+ 
 }
 }
 .sliderA .slide1, .sliderA .slide2, .sliderA .slide3 {
