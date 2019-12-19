@@ -25,6 +25,7 @@ html {
     width: 100%;
     height: 302px;
     top: -45px;
+    display: none;
 }
 
 .basr-social-share {
