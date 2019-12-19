@@ -340,10 +340,10 @@ video {
     height: 435px;
   }
   #twitter-widget-0,#twitter-widget-1{
-      height:400px !important;
+      height:415px !important;
   }
   .insta iframe{
-    height: 400px;
+    height: 415px;
     width: 100%;
   }
   .owl-controls{
@@ -381,11 +381,11 @@ video {
       bottom: -23px;
   }
   #twitter-widget-0,#twitter-widget-1{
-      height:400px !important;
+      height:415px !important;
   }
    /* plugin instagram */
    .insta iframe{
-    height: 400px;
+    height: 415px;
     width: 100%;
   }
   .owl-controls{
