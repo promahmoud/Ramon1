@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header-section {
+    position: relative;
+    height: calc(100vh + 0px);
+}
+.imagebg {
+    height: 77%;
+    margin-top: 6%;
+}
+.navigation {
+    position: fixed;
+}
+
+@media (min-width: 992px){
+.is-home-page .navigation {
+    top: 0 !important;
+    padding: 14px 0px;
+
+}
+}
+.sliderA .slide1, .sliderA .slide2, .sliderA .slide3 {
+    position: absolute;
+    width: 100%;
+    height: 302px;
+    top: -45px;
+}
+
+.basr-social-share {
+    position: absolute;
+    top: 19%;
+    right: -13%;
+}
+.about-section {
+height: 100vh;
+background-image: linear-gradient(154deg, #2c1806 0%, #000000 77%);
+}
+
+.bg-r {
+   margin-top: 18%;
+   height: 350px;
+   background-image: linear-gradient(315deg, #221102 0%, #000000 77%);
+}
+
+svg{position: absolute;}
+svg path{
+    fill:#000 !important
+}
+#twitter-widget-0,
+.insta iframe{
+    height:270px !important
+}
+video {
+    height: 290px !important;
+}
+@media (min-width: 992px){
+.content-general-news {
+    width: 490px;
+    height: 285px;
+}
+}
+.footer-section {
+    background-image: linear-gradient(293deg, #363030 0%, #090501 100%) !important;
+}
+
+
+
+.demo a {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+
+
+#btnDwon a {
+  padding-top: 60px;
+}
+#btnDwon a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#btnDwon a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+#btnDwon a span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 3s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
