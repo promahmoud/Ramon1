@@ -344,6 +344,7 @@ video {
   }
   .insta iframe{
     height: 400px;
+    width: 100%;
   }
   .owl-controls{
     margin-top:20px;
@@ -385,6 +386,7 @@ video {
    /* plugin instagram */
    .insta iframe{
     height: 400px;
+    width: 100%;
   }
   .owl-controls{
     margin-top:20px;
