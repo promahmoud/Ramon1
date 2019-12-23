@@ -362,9 +362,9 @@
 	const btnDwon = document.querySelector('#btnDwon a span');
 	window.addEventListener('scroll', function(){
 		let offset = window.pageYOffset;
-		console.log(offset);
+		// console.log(offset);
 		parallax.style.backgroundPositionY = offset* .3 + 'px';
-		console.log(btnDwon);
+		// console.log(btnDwon);
 		btnDwon.style.top = offset* .144 + 'px';
 		btnDwon.style.opacity =  15/offset;
 	});
