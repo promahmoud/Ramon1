@@ -405,6 +405,10 @@
 			"url": "./assets/css/twitter-custom.css"
 		};
 		CustomizeTwitterWidget(options);
+		setTimeout(() => {
+			CustomizeTwitterWidget(options);
+			console.log(1);
+		}, 6000);
 	</script>
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
 	</script>
