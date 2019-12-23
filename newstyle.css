@@ -38,9 +38,9 @@ background-image: linear-gradient(154deg, #2c1806 0%, #000000 77%);
 }
 
 .bg-r {
-   margin-top: 35.6%;
+   margin-top: 35%;
    /* margin-bottom: 30px; */
-   height: 350px;
+   height: 450px;
    background-image: linear-gradient(315deg, #221102 0%, #000000 77%);
 }
 
@@ -50,7 +50,7 @@ svg path{
 }
 #twitter-widget-0,
 .insta iframe{
-    height:270px !important
+    height:390px !important
 }
 video {
     height: 290px !important;
@@ -172,7 +172,7 @@ video {
 
 .intro-video{
   position: absolute;
-  top: 33%;
+  top: 29%;
   left: 50%;
   transform: translate(-50%,-50%);
 
@@ -196,6 +196,7 @@ video {
   border-radius: unset;
   box-shadow: unset;
 }
+.owl-theme .owl-dots{left: 0;}
 .about-section{
 background-color: #000000;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.6'%3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%230c0a03' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23141206' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%231b1808' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23201d0b' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%2326230d' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
