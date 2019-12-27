@@ -165,7 +165,6 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 /* video */
 .ckin__player.default {
     border-radius: 0px !important;
@@ -375,7 +374,11 @@ video {
 .timeline-about .showcase .wrap {
   margin-bottom: 10px;
 }
-
+.insta{
+  width: 550px !important;
+  height: 240px;
+  overflow-y: auto;
+}
 /* ****************************End About page******************************** */
 /* Responsive */
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -393,6 +396,13 @@ video {
       width: 82%;
       margin: auto;
   }
+  #btnDwon a span::before,
+  .default__button--big::before {
+    top: 3px;
+    left: 3px;
+    width: 7px;
+    height: 7px;
+  }
   .latest-news {
       margin-left: 5%;
   }
@@ -409,9 +419,9 @@ video {
     position: absolute;
     left: 0;
     bottom: -12px;
-    border-bottom: 2px solid #898989;
-    width: 50%;
-    margin: 0px 25%;
+    border-bottom: 2px solid #585050;
+    width: 100%;
+    /* margin: 0px 25%; */
     /* padding: 3px; */
     text-align: center;
   }
@@ -444,13 +454,17 @@ video {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
+  .is-home-page .slide {
+    height: 270px;
+    margin-top: 16px;
+  } 
   .feature-info p {
     font-size: 15px;
     text-align: left;
   }
   .ckin__player.default {
       border-radius: 15px !important;
-      width: 75%;
+      width: 85%;
       margin: auto;
   }
   .first{
