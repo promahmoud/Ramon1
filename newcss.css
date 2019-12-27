@@ -396,13 +396,7 @@ video {
       width: 100%;
       margin: auto;
   }
-  #btnDwon a span::before,
-  .default__button--big::before {
-    top: 3px;
-    left: 3px;
-    width: 7px;
-    height: 7px;
-  }
+
   .latest-news {
       margin-left: 5%;
   }
@@ -495,8 +489,8 @@ video {
     left: 0;
     bottom: -5px;
     border-bottom: 2px solid #898989;
-    width: 50%;
-    margin: 0px 25%;
+    width: 100%;
+    /* margin: 0px 25%; */
     text-align: center;
   }
   .ckin__player.default  {
