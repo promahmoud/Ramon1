@@ -393,7 +393,7 @@ video {
   }
   .ckin__player.default {
       border-radius: 15px !important;
-      width: 82%;
+      width: 100%;
       margin: auto;
   }
   #btnDwon a span::before,
