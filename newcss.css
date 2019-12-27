@@ -126,7 +126,7 @@ video {
   margin: 0 auto;
 
 }
-.slide11,.slide21,.slide31,.slide41{
+.slide{
   width: 350px;
   height: 300px;
 }
@@ -149,6 +149,11 @@ video {
 }
 .slide41{
   background: url(../../images/Ramon_Conde/show-banner/3Rb.png)no-repeat center;
+  background-size: cover;
+  opacity: .7;
+}
+.slide51{
+  background: url(../../images/Ramon_Conde/show-banner/5Rb.png)no-repeat center;
   background-size: cover;
   opacity: .7;
 }
