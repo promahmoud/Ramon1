@@ -124,6 +124,7 @@ video {
   width: 340px;
   height: 415px;
   margin: 0 auto;
+  margin-top: 20px;
 
 }
 .slide{
@@ -132,7 +133,7 @@ video {
 }
 .slide11{
   background: url(../../images/Ramon_Conde/show-banner/3Rb.png)no-repeat center;
-  background: url("images/master-banner2.png")no-repeat center;
+  background: url("images/Ramon_Conde/show-banner/master-banner2.png")no-repeat center;
   background-size: cover;
 }
 .slide21{
@@ -159,7 +160,7 @@ video {
 } */
 .site-name{
   position: absolute;
-  width: 240px;
+  width: 225px;
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -378,7 +379,11 @@ video {
 /* ****************************End About page******************************** */
 /* Responsive */
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
+  .is-home-page .slide {
+    height: 270px;
+    margin-top: 16px;
+  } 
   .feature-info p {
     font-size: 15px;
     text-align: left;
