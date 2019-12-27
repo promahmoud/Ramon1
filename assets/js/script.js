@@ -391,16 +391,16 @@
 			}
 		}
 	});
-	const parallax = document.getElementById('parallax');
-	const btnDwon = document.querySelector('#btnDwon a span');
-	window.addEventListener('scroll', function(){
-		let offset = window.pageYOffset;
-		console.log(offset);
-		parallax.style.backgroundPositionY = offset* .3 + 'px';
-		console.log(btnDwon);
-		btnDwon.style.top = offset* .144 + 'px';
-		btnDwon.style.opacity =  15/offset;
-	});
+	// const parallax = document.getElementById('parallax');
+	// const btnDwon = document.querySelector('#btnDwon a span');
+	// window.addEventListener('scroll', function(){
+	// 	let offset = window.pageYOffset;
+	// 	// console.log(offset);
+	// 	parallax.style.backgroundPositionY = offset* .3 + 'px';
+	// 	// console.log(btnDwon);
+	// 	btnDwon.style.top = offset* .144 + 'px';
+	// 	btnDwon.style.opacity =  15/offset;
+	// });
 	$("#toggle").click(function() {
 		var elem = $("#toggle").text();
 		if (elem == "Read More") {
