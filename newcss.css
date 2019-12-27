@@ -13,6 +13,38 @@ p,
 video {
     margin-top: 0;
 }
+#btnDwon a span::before,
+.default__button--big::before {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: -1;
+  content: '';
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb03 3s infinite;
+  animation: sdb03 3s infinite;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @media screen and (min-width: 768px){
   .latest-news .carousel-caption {
     left: 20%;
@@ -88,6 +120,46 @@ video {
     height: 260px;
    
 }
+.header-image{
+  width: 340px;
+  height: 415px;
+  margin: 0 auto;
+
+}
+.slide11,.slide21,.slide31,.slide41{
+  width: 350px;
+  height: 300px;
+}
+.slide11{
+  background: url(../../images/Ramon_Conde/show-banner/3Rb.png)no-repeat center;
+  background: url(../../images/master-banner2.png)no-repeat center;
+  background-size: cover;
+}
+.slide21{
+  background: url(../../images/Ramon_Conde/show-banner/1Rb.png)no-repeat center;
+  background-size: cover;
+  opacity: .7;
+}
+.slide31{
+  background: url(../../images/Ramon_Conde/show-banner/4Rb.png)no-repeat center;
+  background-size: cover;
+  background-position: -5%;
+  opacity: .7;
+
+}
+.slide41{
+  background: url(../../images/Ramon_Conde/show-banner/3Rb.png)no-repeat center;
+  background-size: cover;
+  opacity: .7;
+}
+.site-name{
+  position: absolute;
+  width: 240px;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* video */
 .ckin__player.default {
     border-radius: 0px !important;
