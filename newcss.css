@@ -195,7 +195,7 @@ video {
 
 
 
-.is-home-page{
+.header-section{
     background: #000;
 }
 .copywrite {
@@ -213,7 +213,8 @@ video {
   /* border-top: 1px dotted #898686; */
   box-shadow: 1px -14px 19px -9px #898686;
   /* 1px -14px 18px -12px #898686 */
- }
+  box-shadow: -1px -2px 18px -1px #898686;
+}
  .latest-news .title h6 {
   margin-top: -1.15em;
   font-size: 2rem;
@@ -535,7 +536,7 @@ video {
 @media (min-width: 992px) { 
   .about-section {
       background: #000;
-  }
+}
   .tab-fix {
       padding-top: 15px;
   }

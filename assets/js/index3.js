@@ -328,7 +328,39 @@
 		zoom: false
 		});
 	});
+	var owl = $('.header-owl-carousel');
+	owl.owlCarousel({
+		nav:false,
+		items:1,
+		loop:true,
+		dots:false,
+		mouseDrag:false,
+		touchDrag:false,
+		pullDrag:false,
+		margin:10,
+		autoplay:true,
+		pagination:false,
+		animateOut: 'fadeOut',
+		autoplayTimeout: 4000,
+		autoplayHoverPause:false,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1,
+				animateOut: 'fadeOut'
 
+			},
+			600: {
+				items: 1,
+				animateOut: 'fadeOut'
+
+			},
+			1000: {
+				items: 1,
+				animateOut: 'fadeOut'
+			}
+		}
+	});
 	// 
 	$('.latest-news-carousel').owlCarousel({
 		loop: true,
