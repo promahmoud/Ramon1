@@ -9,7 +9,7 @@
 		  if (toHash.length) {
 			$('html, body').animate({
 			  scrollTop: (toHash.offset().top - 70)
-			}, 1000, "easeInOutExpo");
+			}, 100, "easeInOutExpo");
 			return false;
 		  }
 		}
@@ -401,4 +401,5 @@
 		btnDwon.style.opacity =  15/offset;
 	});
 
+	
 })(jQuery);
