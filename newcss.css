@@ -152,6 +152,16 @@ video {
   background-size: cover;
   opacity: .7;
 }
+.slide51{
+  background: url("images/Ramon_Conde/show-banner/5Rb.png")no-repeat center;
+  background-size: cover;
+  opacity: .7;
+}
+.slide61{
+  background: url("images/Ramon_Conde/show-banner/6Rb.png")no-repeat center;
+  background-size: cover;
+  opacity: .7;
+}
 /* .slide51{
   background: url(../../images/Ramon_Conde/show-banner/5Rb.jpg)no-repeat center;
   background-size: cover;
