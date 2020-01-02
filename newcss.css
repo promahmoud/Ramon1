@@ -148,12 +148,12 @@ video {
 }
 .slide41{
   background: url("images/Ramon_Conde/show-banner/4Rb.png")no-repeat center;
-  background-size: cover;
+  background-size: contain;
   opacity: .7;
 }
 .slide51{
   background: url("images/Ramon_Conde/show-banner/5Rb.png")no-repeat center;
-  background-size: contain;
+  background-size: cover;
   opacity: .7;
 }
 .slide61{
@@ -161,11 +161,7 @@ video {
   background-size: cover;
   opacity: .7;
 }
-.slide71{
-  background: url("images/Ramon_Conde/show-banner/7Rb.png")no-repeat center;
-  background-size: cover;
-  opacity: .7;
-}
+
 
 .site-name{
   position: absolute;
