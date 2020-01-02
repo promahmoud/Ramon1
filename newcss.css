@@ -432,10 +432,9 @@ video {
   .content-general-news{
     height: 435px;
     overflow-y: scroll;
-    box-shadow: 0 0 14px -2px #4e3e2f;
-    margin-top: 13px;
-    margin-left: 5px;
-    margin-right: 18px;
+    -moz-box-shadow:    inset 0 0 10px #878585;
+    -webkit-box-shadow: inset 0 0 10px #878585;
+    box-shadow:         inset 0 0 10px #878585;
   }
   #twitter-widget-0,#twitter-widget-1{
       height:415px !important;
