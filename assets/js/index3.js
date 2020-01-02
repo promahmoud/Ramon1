@@ -384,7 +384,7 @@
 				items: 1,
 				autoplay: false,
 			},
-			1000: {
+			1200: {
 				items: 2,
 				
 			}
