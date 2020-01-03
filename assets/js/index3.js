@@ -380,10 +380,14 @@
 			0: {
 				items: 1,
 				autoplay: false,
+				touchDrag:false,
+				pullDrag:false,
 			},
 			600: {
 				items: 1,
 				autoplay: false,
+				touchDrag:false,
+				pullDrag:false,
 			},
 			1200: {
 				items: 2,
