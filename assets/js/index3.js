@@ -405,6 +405,17 @@
 		btnDwon.style.top = offset* .144 + 'px';
 		btnDwon.style.opacity =  15/offset;
 	});
-
+	//Start Scroll
+	var scroll_button = $('.scroll-top-btn');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 400) {
+            scroll_button.css('display', 'block');
+        } else {
+            scroll_button.hide();
+        }
+    });
+    scroll_button.click(function () {
+        $('html,body').animate({scrollTop: 0}, 100);
+    });
 	
 })(jQuery);

@@ -22,7 +22,22 @@ html {
 .navigation {
   position: fixed;
 }
-
+/*Start   Scroll Top*/
+.scroll-top-btn{
+  position: fixed;
+  bottom:8px;
+  right:40px;
+  color:#fff;
+  background: #8c6a07;
+  border-radius: 10px;
+  display: none;
+  cursor: pointer;
+  opacity: .5;
+  transition: all .5s ease
+}
+.scroll-top-btn:hover{opacity: 1}
+.scroll-top-btn .btn-up{ padding:10px; font-size: 20px; text-align: center}
+/*End  Scroll-top*/
 @media (min-width: 992px){
 .is-home-page .navigation {
   top: 0 !important;
