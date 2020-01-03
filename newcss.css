@@ -120,7 +120,7 @@ html {
     height: 650px;
     background-color: #000000;
 }
-.breadcrumb-h h1 {
+.about-header h1 {
   color: #413d3d;
   margin-top: 30px;
 }
@@ -200,63 +200,9 @@ p,
  }
  
  
-  /* *******Slider */
 
 
-.header-image{
-  width: 340px;
-  height: 415px;
-  width: 370px !important;
-  height: 450px !important;
-  margin: 0 auto;
-  margin-top: 20px;
 
-}
-.slide{
-  width: 350px;
-  height: 300px;
-  width: 385px;
-  height: 330px;
-}
-.slide11{
-  background: url("images/Ramon_Conde/show-banner/master-banner2.png")no-repeat center;
-  background-size: cover;
-}
-.slide21{
-  background: url("images/Ramon_Conde/show-banner/1Rb.png")no-repeat center;
-  background-size: cover;
-  opacity: .7;
-}
-.slide31{
-  background: url("images/Ramon_Conde/show-banner/3Rb.png")no-repeat center;
-  background-size: cover;
-  opacity: .7;
-
-}
-.slide41{
-  background: url("images/Ramon_Conde/show-banner/4Rb.png")no-repeat center;
-  background-size: contain;
-  opacity: .7;
-}
-.slide51{
-  background: url("images/Ramon_Conde/show-banner/5Rb.png")no-repeat center;
-  background-size: cover;
-  opacity: .7;
-}
-.slide61{
-  background: url("images/Ramon_Conde/show-banner/6Rb.png")no-repeat center;
-  background-size: cover;
-  opacity: .7;
-}
-
-
-.site-name{
-  position: absolute;
-  width: 225px;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 /* video */
 .video-bottom{
   height: 550px;

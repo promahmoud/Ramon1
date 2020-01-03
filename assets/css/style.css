@@ -5636,308 +5636,63 @@ Time line style
 	margin-top: -15rem;
 }
 
-.sliderA {
-	/*max-width: 300px;
-	height: 200px;*/
-	width: 100%;
-	height: 100%;
-	margin: 20px auto;
-	position: relative;
-	opacity: 0.4;
-}
 
-.sliderA .slide1,
-.sliderA .slide2,
-.sliderA .slide3 {
+  /* *******Slider */
+
+
+  .header-image{
+	width: 340px;
+	height: 415px;
+	width: 370px !important;
+	height: 450px !important;
+	margin: 0 auto;
+	margin-top: 20px;
+  
+  }
+  .slide{
+	width: 350px;
+	height: 300px;
+	width: 385px;
+	height: 330px;
+  }
+  .slide11{
+	background: url("../../images/Ramon_Conde/show-banner/master-banner2.png")no-repeat center;
+	background-size: cover;
+  }
+  .slide21{
+	background: url("../../images/Ramon_Conde/show-banner/1Rb.png")no-repeat center;
+	background-size: cover;
+	opacity: .7;
+  }
+  .slide31{
+	background: url("../../images/Ramon_Conde/show-banner/3Rb.png")no-repeat center;
+	background-size: cover;
+	opacity: .7;
+  
+  }
+  .slide41{
+	background: url("../../images/Ramon_Conde/show-banner/4Rb.png")no-repeat center;
+	background-size: contain;
+	opacity: .7;
+  }
+  .slide51{
+	background: url("../../images/Ramon_Conde/show-banner/5Rb.png")no-repeat center;
+	background-size: cover;
+	opacity: .7;
+  }
+  .slide61{
+	background: url("../../images/Ramon_Conde/show-banner/6Rb.png")no-repeat center;
+	background-size: cover;
+	opacity: .7;
+  }
+  .site-name{
 	position: absolute;
-	width: 100%;
-	height: 240px;
-}
+	width: 225px;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
 
-.sliderA .slide1 {
-	background: url(../../images/Ramon_Conde/show-banner/1Rb.png)no-repeat center;
-	background-size: cover;
-	animation: fade 8s infinite;
-	-webkit-animation: fade 8s infinite;
-
-}
-
-.sliderA .slide2 {
-	background: url(../../images/Ramon_Conde/show-banner/3Rb.png)no-repeat center;
-	background-size: cover;
-	animation: fade2 8s infinite;
-	-webkit-animation: fade2 8s infinite;
-}
-
-.sliderA .slide3 {
-	background: url(../../images/Ramon_Conde/show-banner/4Rb.png)no-repeat center;
-	background-size: cover;
-	animation: fade3 8s infinite;
-	-webkit-animation: fade3 8s infinite;
-}
-
-
-@keyframes fade {
-	0% {
-		opacity: 1
-	}
-
-	33.333% {
-		opacity: 0
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 1
-	}
-}
-
-@keyframes fade2 {
-	0% {
-		opacity: 0
-	}
-
-	33.333% {
-		opacity: 1
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 0
-	}
-}
-
-@keyframes fade3 {
-	0% {
-		opacity: 0
-	}
-
-	33.333% {
-		opacity: 0
-	}
-
-	66.666% {
-		opacity: 1
-	}
-
-	100% {
-		opacity: 0
-	}
-}
-
-
-/*Slider 2 / SLiderB*/
-.sliderB {
-	width: 100%;
-	height: 100%;
-	margin: 20px auto;
-	position: relative;
-	opacity: 0.4;
-}
-
-.sliderB .slide1,
-.sliderB .slide2 {
-	position: absolute;
-	width: 100%;
-	height: 240px;
-}
-
-.sliderB .slide1 {
-	background: url(../../images/Ramon_Conde/show-banner/Meditaci+Ã‚Â¦n\ 18x15x13.jpg)no-repeat center;
-	background-size: cover;
-	animation: fade 7s infinite;
-	-webkit-animation: fade 7s infinite;
-
-}
-
-.sliderB .slide2 {
-	background: url(../../images/Ramon_Conde/show-banner/Tapando\ la\ boca\ 30x23x20.jpg)no-repeat center;
-	background-size: cover;
-	animation: fade2 6s infinite;
-	-webkit-animation: fade2 6s infinite;
-}
-
-}
-
-@keyframes fade {
-	0% {
-		opacity: 1
-	}
-
-	33.333% {
-		opacity: 0
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 1
-	}
-}
-
-@keyframes fade2 {
-	0% {
-		opacity: 0
-	}
-
-	33.333% {
-		opacity: 1
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 0
-	}
-}
-
-/*Slider 3 / SLiderC*/
-.sliderC {
-	max-width: 300px;
-	height: 135px;
-	margin: 20px auto;
-	position: relative;
-	opacity: 0.4;
-}
-
-.sliderC .slide1,
-.sliderC .slide2 {
-	position: absolute;
-	width: 100%;
-	height: 135px;
-}
-
-.sliderC .slide1 {
-	background: url(../../images/Ramon_Conde/show-banner/_MG_8083.jpg)no-repeat center;
-	background-size: cover;
-	animation: fade 7s infinite;
-	-webkit-animation: fade 7s infinite;
-
-}
-
-.sliderC .slide2 {
-	background: url(../../images/Ramon_Conde/show-banner/_MG_8112.jpg)no-repeat center;
-	background-size: cover;
-	animation: fade2 7s infinite;
-	-webkit-animation: fade2 7s infinite;
-}
-
-}
-
-@keyframes fade {
-	0% {
-		opacity: 1
-	}
-
-	33.333% {
-		opacity: 0
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 1
-	}
-}
-
-@keyframes fade2 {
-	0% {
-		opacity: 0
-	}
-
-	33.333% {
-		opacity: 1
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 0
-	}
-}
-
-/*Slider 4 / SLiderD*/
-.sliderD {
-	width: 100%;
-	height: 100%;
-	margin: 20px auto;
-	position: relative;
-	opacity: 0.4;
-}
-
-.sliderD .slide1,
-.sliderD .slide2 {
-	position: absolute;
-	width: 100%;
-	height: 240px;
-}
-
-.sliderD .slide1 {
-	background: url(../../images/Ramon_Conde/show-banner/rederos.jpg)no-repeat center;
-	background-size: cover;
-	animation: fade 5s infinite;
-	-webkit-animation: fade 5s infinite;
-
-}
-
-.sliderD .slide2 {
-	background: url(../../images/Ramon_Conde/show-banner/ttn.jpg)no-repeat center;
-	background-size: cover;
-	animation: fade2 5s infinite;
-	-webkit-animation: fade2 5s infinite;
-}
-
-}
-
-@keyframes fade {
-	0% {
-		opacity: 1
-	}
-
-	33.333% {
-		opacity: 0
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 1
-	}
-}
-
-@keyframes fade2 {
-	0% {
-		opacity: 0
-	}
-
-	33.333% {
-		opacity: 1
-	}
-
-	66.666% {
-		opacity: 0
-	}
-
-	100% {
-		opacity: 0
-	}
-}
 
 
 /* Album Customization */
