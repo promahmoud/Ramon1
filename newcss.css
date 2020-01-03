@@ -418,7 +418,7 @@ video {
       width: 100% !important;
       margin: auto;
   }
-  .ckin__player.default video{height: auto !important;}
+  .ckin__player.default video{height: 270px !important;}
 
   .latest-news {
       margin-left: 5%;
