@@ -418,6 +418,11 @@ video {
       width: 100% !important;
       margin: auto;
   }
+  .default__button--big::before{
+    width: 15px !important;
+    height: 15px !important;
+    top: 0 !important;
+  }
   .ckin__player.default video{height: 270px !important;}
 
   .latest-news {
