@@ -365,9 +365,10 @@
 	$('.latest-news-carousel').owlCarousel({
 		loop: true,
 		margin: 0,
-		nav: false,
+		nav: true,
+		dots:false,
 		pagination:true,
-		autoplay: true,
+		autoplay: false,
 		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
 		navText: [
