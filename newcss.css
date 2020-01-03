@@ -413,6 +413,12 @@ video {
     font-size: 15px;
     text-align: left;
   }
+  .about-section {
+    height: 580px !important;
+  }
+  .video-bottom{
+    height: 390px !important;
+  }
   .ckin__player.default {
       border-radius: 15px !important;
       width: 100% !important;
