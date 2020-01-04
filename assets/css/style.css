@@ -940,8 +940,8 @@ label.error {
 .next-arrow{
   display: inline-block;
   position: absolute;
-  width: 1.2vw;
-  height: 1.2vw;
+  width: 16px;
+  height: 16px;
   background: transparent;
   text-indent: -9999px;
   border-top: 0.15vw solid #fff;
@@ -1711,7 +1711,7 @@ label.error {
 	}
 
 	.owl-theme .owl-nav [class*=owl-] {
-		margin: 27px 46%;
+		margin: 27px 50%;
 		height: 35px;
 		width: 35px;
 	}

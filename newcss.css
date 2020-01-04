@@ -22,27 +22,7 @@ html {
 .navigation {
   position: fixed;
 }
-.prev-arrow,
-.next-arrow{
-  display: inline-block;
-  position: absolute;
-  width: 1.2vw;
-  height: 1.2vw;
-  background: transparent;
-  text-indent: -9999px;
-  border-top: 0.15vw solid #fff;
-  border-left: 0.15vw solid #fff;
-  transition: all .1s ease-in-out;
-  text-decoration: none;
-  color: transparent;
-}
-.prev-arrow{
-  transform: rotate(-45deg);
-    left: 0;
-}
-.next-arrow{
-  transform: rotate(135deg);
-}
+
 /*Start   Scroll Top*/
 .scroll-top-btn{
   position: fixed;
