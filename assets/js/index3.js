@@ -418,9 +418,10 @@
         $('html,body').animate({scrollTop: 0}, 100);
 	});
 	//video poster
+
 	var video = $('.video-bottom video').get(0);
 	video.addEventListener('ended',function(){
-		video.load();     
+		video.load();
 	}); 
 	
 })(jQuery);
