@@ -907,14 +907,17 @@ label.error {
 .owl-theme .owl-nav [class*=owl-] {
 	background: #e6e2e2;
 	color: #a57f0f !important;
-	margin: 5px 40px;
-	margin: 27px 48%;
+	margin: 27px 50%;
 	border-radius: 50%;
+	background: transparent;
+	margin-top: 12px !important;
+    margin-bottom: -20px !important;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
 	background: #fff;
 	color: #e0486e;
+	background: transparent;
 }
 
 .owl-nav .owl-prev,
@@ -933,7 +936,37 @@ label.error {
 	-moz-transition: all .5s ease;
 	transition: all .5s ease;
 }
-
+.prev-arrow,
+.next-arrow{
+  display: inline-block;
+  position: absolute;
+  width: 1.2vw;
+  height: 1.2vw;
+  background: transparent;
+  text-indent: -9999px;
+  border-top: 0.15vw solid #fff;
+  border-left: 0.15vw solid #fff;
+  transition: all .1s ease-in-out;
+  text-decoration: none;
+  color: transparent;
+}
+.prev-arrow:before,
+.next-arrow:before{
+    display: block;
+    height: 200%;
+    width: 200%;
+    margin-left: -50%;
+    margin-top: -50%;
+    content: "";
+    transform: rotate(45deg);
+}
+.prev-arrow{
+  transform: rotate(-45deg);
+    left: 0;
+}
+.next-arrow{
+  transform: rotate(135deg);
+}
 .language-label {
 	font-size: 15px;
 	font-weight: 400;
@@ -993,12 +1026,12 @@ label.error {
 	/* right: -10px; */
 }
 .owl-nav i{
-	transform: scale(1.2);
-	transition: all .5s ease;
+	transition: all .3s ease;
 }
-.owl-nav .owl-prev:hover i, 
-.owl-nav .owl-next:hover i{
-	transform: scale(1.5);
+.owl-nav i:hover{
+	transition: all .3s ease;
+	border-width: 0.29vw;
+	border-color:#a57f0f !important;
 }
 
 

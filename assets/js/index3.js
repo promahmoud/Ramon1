@@ -372,8 +372,8 @@
 		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
 		navText: [
-			"<i class='fa fa-caret-left'></i>",
-			"<i class='fa fa-caret-right'></i>"
+			"<i class='prev-arrow'></i>",
+			"<i class='next-arrow'></i>"
 		  ],
 		responsiveClass: true,
 		responsive: {
