@@ -260,7 +260,9 @@ p,
   top: 0;
   left: 0;
   background: #000;
-  opacity: .6;
+  background-image: linear-gradient(to left, #1b1e23, #131c20, #0c1a19, #0a1710, #0e1201);
+  background-image: linear-gradient(to bottom, #000000, #0b0404, #130804, #170e03, #181302);
+  opacity: .8;
   z-index: -1;
 }
 .video-bottom .fadeInRight{
