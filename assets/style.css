@@ -908,22 +908,16 @@ label.error {
 	background: #e6e2e2;
 	color: #a57f0f !important;
 	margin: 27px 50%;
-	margin: 27px 49%;
 	border-radius: 50%;
 	background: transparent;
 	margin-top: 12px !important;
-	margin-bottom: -20px !important;
-	border: 1px solid #ddd;
-	transform: translateY(-20px);
+    margin-bottom: -20px !important;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
 	background: #fff;
 	color: #e0486e;
 	background: transparent;
-	border-color: #7a5d04;
-	border-width: 2px;
-	transform: translateY(-23px);
 }
 
 .owl-nav .owl-prev,
@@ -934,8 +928,6 @@ label.error {
 	border-radius: 50%;
 	height: 44px;
 	width: 44px;
-	height: 35px;
-	width: 35px;
 	text-align: center;
 	opacity: 1;
 	font-size: 20px;
@@ -948,8 +940,8 @@ label.error {
 .next-arrow{
   display: inline-block;
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   background: transparent;
   text-indent: -9999px;
   border-top: 0.15vw solid #fff;
@@ -969,16 +961,11 @@ label.error {
     transform: rotate(45deg);
 }
 .prev-arrow{
-	transform: rotate(-45deg);
-	left: 0;
-	left: 14px;
-    top: 12px;
-
+  transform: rotate(-45deg);
+    left: 0;
 }
 .next-arrow{
-	transform: rotate(135deg);
-    left: 11px;
-	top: 12px;
+  transform: rotate(135deg);
 }
 .language-label {
 	font-size: 15px;
@@ -1043,8 +1030,8 @@ label.error {
 }
 .owl-nav i:hover{
 	transition: all .3s ease;
-	/* border-width: 0.29vw; */
-	/* border-color:#a57f0f !important; */
+	border-width: 0.29vw;
+	border-color:#a57f0f !important;
 }
 
 
@@ -1725,7 +1712,6 @@ label.error {
 
 	.owl-theme .owl-nav [class*=owl-] {
 		margin: 27px 50%;
-		margin: 27px 47%;
 		height: 35px;
 		width: 35px;
 	}
