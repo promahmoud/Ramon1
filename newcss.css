@@ -154,13 +154,9 @@ html {
 
 }
 .about-header{
-  /* margin-top: 8px; */
-  /* background: #f2f1f1; */
-  /* box-shadow: 0px 0px 14px 13px #DDD; */
-}
-.info-me{
-  background-image: linear-gradient(to left bottom, #a6a3a3, #bbb9ba, #d1d0d1, #e8e7e8, #ffffff);
-  background-image: linear-gradient(to right, #a6a3a3, #bbb9ba, #d1d0d1, #e8e7e8, #ffffff);
+  margin-top: 8px;
+  background: #f2f1f1;
+  box-shadow: 0px 0px 24px 24px #c1c0c0;
 }
 .about-header h1 {
   color: #413d3d;
