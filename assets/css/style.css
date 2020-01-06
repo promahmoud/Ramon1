@@ -920,9 +920,8 @@ label.error {
 .owl-theme .owl-nav [class*="owl-"]:hover {
 	background: #fff;
 	color: #e0486e;
-	background: transparent;
 	border-color: #7a5d04;
-	border-width: 2px;
+	background: #7a5d04;;
 	transform: translateY(-23px);
 }
 
