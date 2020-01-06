@@ -757,9 +757,9 @@ label.error {
 	width: 70px;
 	margin: 0 auto;
 	border-radius: 50%;
-	background-color: #35096b;
-	background-image: -o-linear-gradient(157deg, #ed355b 0%, #1f65db 100%);
-	background-image: linear-gradient(293deg, #ed355b 0%, #1f65db 100%);
+	/* background-color: #35096b; */
+	/* background-image: -o-linear-gradient(157deg, #ed355b 0%, #1f65db 100%); */
+	/* background-image: linear-gradient(293deg, #ed355b 0%, #1f65db 100%); */
 }
 
 .box-icon .fa,

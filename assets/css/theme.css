@@ -98,6 +98,9 @@ Updated	 :	10.22.2018
 	background-image: -o-linear-gradient(293deg, #FFC107 0%, #FF9800 100%);
 	background-image: linear-gradient(293deg, #FFC107 0%, #FF9800 100%);
 }
+.box-icon{
+	background-image: none;
+}
 .meta-heading{
 	color: #1F65DB;
 	margin-bottom: 5px;
