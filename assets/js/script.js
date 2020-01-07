@@ -457,5 +457,10 @@
 			$("#text").slideUp();
 		}
 	});
+	// select langauge
+	$('.active-lang').click(function(e){
+		e.preventDefault();
+		
+	});
 	
 })(jQuery);

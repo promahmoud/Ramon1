@@ -989,7 +989,10 @@ label.error {
 	border-right: 0;
 	padding-bottom: 7px;
 }
-
+.active-lang{
+	cursor: not-allowed;
+	background: #ccc;
+}
 @media (min-width: 992px) {
 	.is-home-page .navigation {
 		/* top: 47.6vh !important; */
@@ -2972,7 +2975,9 @@ video {
 	position: relative;
 	z-index: 100;
 }
-
+.creation-pro{
+	margin-bottom: 60px;
+}
 @media only screen and (max-width: 1024px) {
 	.feature-boxes {
 		margin-top: 60px;
@@ -6081,6 +6086,9 @@ Time line style
 
 	.TL1 .entries .entry {
 		font-size: 14px !important;
+	}
+	.creation-pro{
+		margin-bottom: 0px;
 	}
 }
 
