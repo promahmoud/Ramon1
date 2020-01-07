@@ -9,7 +9,7 @@
 		  if (toHash.length) {
 			$('html, body').animate({
 			  scrollTop: (toHash.offset().top - 70)
-			}, 1000, "easeInOutExpo");
+			}, 100, "easeInOutExpo");
 			return false;
 		  }
 		}
@@ -328,7 +328,6 @@
 		zoom: false
 		});
 	});
-
 	var owl = $('.header-owl-carousel');
 	owl.owlCarousel({
 		nav:false,
@@ -362,45 +361,55 @@
 			}
 		}
 	});
-	// 
+	//  latest news carousel
 	$('.latest-news-carousel').owlCarousel({
 		loop: true,
 		margin: 0,
-		nav: false,
+		nav: true,
+		dots:false,
 		pagination:true,
-		autoplay: true,
+		autoplay: false,
 		autoplayTimeout: 5000,
 		autoplayHoverPause: true,
 		navText: [
-			"<i class='fa fa-caret-left'></i>",
-			"<i class='fa fa-caret-right'></i>"
+			"<i class='prev-arrow'></i>",
+			"<i class='next-arrow'></i>"
 		  ],
 		responsiveClass: true,
 		responsive: {
 			0: {
 				items: 1,
 				autoplay: false,
+				touchDrag:false,
+				pullDrag:false,
 			},
 			600: {
 				items: 1,
 				autoplay: false,
+				touchDrag:false,
+				pullDrag:false,
 			},
-			1000: {
-				items: 1,
+			1200: {
+				items: 2,
 				
 			}
 		}
 	});
-	// const parallax = document.getElementById('parallax');
-	// const btnDwon = document.querySelector('#btnDwon a span');
-	// window.addEventListener('scroll', function(){
-	// 	let offset = window.pageYOffset;
-	// 	// console.log(offset);
-	// 	parallax.style.backgroundPositionY = offset* .3 + 'px';
-	// 	// console.log(btnDwon);
-	// 	btnDwon.style.top = offset* .144 + 'px';
-	// 	btnDwon.style.opacity =  15/offset;
-	// });
+
+	//Start Scroll
+	var scroll_button = $('.scroll-top-btn');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 400) {
+            scroll_button.css('display', 'block');
+        } else {
+            scroll_button.hide();
+        }
+    });
+    scroll_button.click(function () {
+        $('html,body').animate({scrollTop: 0}, 100);
+	});
+
+	// button read more
 	$("#toggle").click(function() {
 		var elem = $("#toggle").text();
 		if (elem == "Read More") {
@@ -413,4 +422,5 @@
 		  $("#text").slideUp();
 		}
 	  });
+	
 })(jQuery);

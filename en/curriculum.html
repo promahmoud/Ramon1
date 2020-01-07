@@ -17,6 +17,9 @@
 		<link href="assets/css/theme.css" rel="stylesheet" id="layoutstyle">
 		<link href="assets/css/tabs.css" rel="stylesheet">
 		<link href="assets/css/tabstyles.css" rel="stylesheet">
+		<link rel="stylesheet" href="work.css">
+		<link rel="stylesheet" href="newcss.css">
+		
 	</head>
 
 	<body class="overflow-scroll is-inner-page">
@@ -35,52 +38,60 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<!--<a class="navbar-brand" href="index.html">
-								<img class="logo logo-light" src="images/Ramon_Conde/nae-logo2.png" alt="logo" />
-								<img class="logo logo-color" src="images/Ramon_Conde/nae-logo3.png" alt="logo" />
-							</a>-->
+							<!-- Language Selector - Hidden Sm and XS -->
+							<div class="dropdown visable-sm visible-xs small-language">
+								<button class="btn lang-picker dropdown-toggle" type="button" data-toggle="dropdown"><span class="flag-icon flag-icon-gb"></span>
+								<span class="caret"></span></button>
+								<ul class="dropdown-menu">
+									<li><a href="/" onclick="location.reload();location.href='https://stack-view.com/staging/ramon-conde'"><span class="flag-icon flag-icon-es"></span></a></li>
+									<li><a href="en" onclick="location.reload();location.href='https://stack-view.com/staging/ramon-conde/en/index.html'"><span class="flag-icon flag-icon-gb"></span></a></li>
+								</ul>
+							</div>
 						</div>
 
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse font-secondary" id="site-collapse-nav">
-							<ul class="nav nav-list navbar-nav centered-nav">
-								<li><a class="nav-item" href="index.html" class="inner-link">Welcome</a></li>
-								
-								<!-- Hidden Sm and XS -->
-								<li class="dropdown hidden-sm hidden-xs">
-									<a class="nav-item" href="sobre-mi.html">About Me</a>
-									<ul class="dropdown-menu">
-										<li><a class="nav-item" href="proceso-creativo.html" class="inner-link">Creative Process</a></li>
-									</ul>
-								</li>
-								<!-- Shown on sm xs -->
-								<li class="visable-sm visible-xs"><a class="nav-item" href="sobre-mi.html">About Me</a></li>
-								<li class="visable-sm visible-xs"><a class="nav-item" href="proceso-creativo.html" class="inner-link">Creative Process</a></li>
 
-								<li><a class="nav-item" href="mis-obras.html" class="inner-link">Works</a></li>
-								<li class="active"><a class="nav-item" href="curriculum.html" class="inner-link">Resume</a></li>
-								<li><a class="nav-item" href="prensa.html" class="inner-link">Press</a></li>
-								<li><a class="nav-item" href="Contact.html" class="inner-link">Contact</a></li>
-								<!-- Language Selector - Hidden Sm and XS -->
-								<li class="dropdown hidden-sm hidden-xs">
-									<a class="nav-item" href="/en" class="inner-link">English</a>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse font-secondary" id="site-collapse-nav">
+						<ul class="nav nav-list navbar-nav centered-nav">
+							<li><a class="nav-item" href="index.html" class="inner-link">Welcome</a>
+							</li>
+
+							<li><a class="nav-item" href="sobre-mi.html" class="inner-link">About Me</a></li>
+							<!-- hidden on sm xs -->
+							<li class="dropdown hidden-sm hidden-xs">
+								<a class="nav-item" href="mis-obras.html" class="inner-link">Works</a>
 									<ul class="dropdown-menu">
-										<li><a class="nav-item" href="/">Español</a></li>
+										<li><a class="nav-item" href="obras-publica.html">Public Work</a></li>
+										<li><a class="nav-item" href="album-exposiciones.html">Exhibitions</a></li>
+										<li><a class="nav-item" href="album-proceso-creativo.html">Creation Process</a></li>
 									</ul>
-								</li>
 								
-								<!-- Language Selector - Shown on sm xs -->
-								<li class="language-label visable-sm visible-xs">Select Language</li>
-								<li class="visable-sm visible-xs"><a class="nav-item" href="/en" class="inner-link">English</a></li>
-								<li class="visable-sm visible-xs"><a class="nav-item" href="/">Español</a></li>
-							</ul>
-						</div><!-- /.navbar-collapse -->
-					</div><!-- /.container -->
-				</nav>
-			</div><!-- .navigation -->
+							</li>
+							<!-- Shown on sm xs -->
+							<li class="visable-sm visible-xs"><a class="nav-item" href="mis-obras.html" class="inner-link">Obras</a></li>
+							
+							<li class="active"><a class="nav-item" href="curriculum.html" class="inner-link">Resume</a></li>
+							<li><a class="nav-item" href="prensa.html" class="inner-link">Press</a></li>
+							<li><a class="nav-item" href="contacto.html" class="inner-link">Contact</a></li>
+
+							<!-- Language Selector - Hidden Sm and XS -->
+							<li class="dropdown hidden-sm hidden-xs">
+								<a class="nav-item" href="/"><span class="flag-icon flag-icon-gb"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="/"><span class="flag-icon flag-icon-es"></span></a></li>
+									<li><a href="en"><span class="flag-icon flag-icon-gb"></span></a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container -->
+			</nav>
+		</div><!-- .navigation -->
 
 			<div class="clearfix text-center font-secondary breadcrumb-h">
-				<h1>Resume</h1>
+				<h1 class="title_sec">Résumé</h1>
+				<span class="under_title"></span>
 			</div>
 		</div><!-- .header-section -->
 
@@ -90,15 +101,15 @@
 			<div class="tabs tabs-style-iconbox">
 				<nav>
 					<ul>
-						<li><a href="#Exposiciones"><span>Exhibitions</span></a></li>
+						<li class="tab-current"><a href="#Exposiciones"><span>Exhibitions</span></a></li>
 						<li><a href="#Ferias"><span>Fairs</span></a></li>
 						<li><a href="#Colecciones"><span>Collections</span></a></li>
-						<li><a href="#Obra_publica"><span>Public Work</span></a></li>
+						<!-- <li><a href="#Obra_publica"><span>Public Work</span></a></li> -->
 					</ul>
 				</nav>
 
 				<div class="content-wrap">
-					<section id="Exposiciones">
+					<section id="Exposiciones" class="content-current">
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12 clearfix">
@@ -207,7 +218,7 @@
 													<div class="title">GALICIA</div>
 													<div class="body">
 														<p>
-															<ul class="content">
+															</p><ul class="content">
 																<li>Galería Ana Vilaseco, A Coruña.</li>
 																<li>Galería Atlántica, A Coruña. </li>
 																<li>Galería Pardo Bazán, A Coruña.</li>  
@@ -239,14 +250,14 @@
 																<li>Museo Municipal, Ourense.</li>    
 																<li>Museo Arqueolóxico, Ourense.</li>
 															</ul>
-														</p>
+														<p></p>
 													</div>
 												</div>
 												<div class="entry first-no-bal-right">
 													<div class="title">NATIONAL</div>
 													<div class="body">
 														<p>
-															<ul class="content">
+															</p><ul class="content">
 																<li>Galería Sen, Madrid.</li>
 																<li>Galería Novart, Madrid.</li>
 																<li>Galería Serrano 141, Madrid.</li>
@@ -258,7 +269,7 @@
 																<li>Galería Jaume, Palma de Mallorca.</li>
 																<li>Sala de arte Zeus, Zaragoza.</li>
 															</ul>
-														</p>
+														<p></p>
 													</div>
 												</div>
 												<!-- Blank -->
@@ -270,12 +281,12 @@
 													<div class="title">INTERNATIONAL</div>
 													<div class="body">
 														<p>
-															<ul class="content">
+															</p><ul class="content">
 																<li>Kommunale Galerie, Berlín.</li>
 																<li>The Gallery in Cork Street, Londres.</li>
 																<li>Consulado General de España, Hannover. </li>
 															</ul>
-														</p>
+														<p></p>
 													</div>
 												</div>
 											</div>
@@ -299,7 +310,7 @@
 													<div class="title">GALICIA</div>
 													<div class="body">
 														<p>
-															<ul class="content">
+															</p><ul class="content">
 																<li>Galería Trebellar, A Coruña.</li>
 																<li>Kiosco Alfonso, A Coruña.</li>
 																<li>Díaz Pardo, Diputación de A Coruña. </li>
@@ -322,14 +333,14 @@
 																<li>Parque de Castrelos, Vigo.</li>
 																<li>Museo Arqueolóxico, Ourense.</li>
 															</ul>
-														</p>
+														<p></p>
 													</div>
 												</div>
 												<div class="entry dosra-right">
 													<div class="title">NATIONAL</div>
 													<div class="body">
 														<p>
-															<ul class="content">
+															</p><ul class="content">
 																<li>Galería O+O, Valencia.</li>
 																<li>Galería AC, Madrid. </li>
 																<li>Galería Bennasar, Madrid. </li>
@@ -343,7 +354,7 @@
 																<li>Expo’92, Sevilla.</li>
 																<li>Arco, Madrid.</li>
 															</ul>
-														</p>
+														<p></p>
 													</div>
 												</div>
 												<!-- Blank -->
@@ -355,7 +366,7 @@
 													<div class="title">INTERNATIONAL</div>
 													<div class="body">
 														<p>
-															<ul class="content">
+															</p><ul class="content">
 																<li>The ArtBox Projects, Nueva York.</li>
 																<li>Palacio de Mateus, Vila Real (Portugal).</li>
 																<li>II Simposio Internacional de Escultura, Bakú (Azerbaiyán).</li>
@@ -374,7 +385,7 @@
 																<li>Salon des Indépendants, París.</li>
 																<li>Salon D´Automne, Grand Palais, París. </li>
 															</ul>
-														</p>
+														<p></p>
 													</div>
 												</div>
 											</div>
@@ -417,6 +428,7 @@
 							</div>
 						</div>
 					</section>
+
 					<section id="Colecciones">
 						<div class="container mtb-30 text-center">
 							<div class="row">
@@ -434,7 +446,7 @@
 
 										<li>Museo Sargadelos, Cervo (Lugo). 
 
-										<li>Museo Carlos Maside, Sada (A Coruña). </li>
+										</li><li>Museo Carlos Maside, Sada (A Coruña). </li>
 
 										<li>Pazo de Raxoi, Santiago.</li>
 
@@ -469,283 +481,285 @@
 							</div>
 						</div>
 					</section>
-					<section id="Obra_publica">
+
+					<!-- Dispkay none -->
+					<section id="Obra_publica" class="hidden">
 						<div id="portfoliolist" class="container">
 							<!-- publica List Start -->
-							<div id="lightgallery">
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/102_2223x.jpg">
+							<div id="lightgallery" style="height: 0px; perspective: 3000px; perspective-origin: 50% 50%; transition: height 600ms ease 0s;">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/102_2223x.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/102_2223x.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/102_2223x.jpg" alt="">
 										<div class="caption">
 											Homenaje a la emigración
 											<small>Vigo (puerto) - 2011</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/450px-Busto_Enrique_Tierno_Galvan,_Culleredo,_escultor_Ramon_Conde_2.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/450px-Busto_Enrique_Tierno_Galvan,_Culleredo,_escultor_Ramon_Conde_2.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/450px-Busto_Enrique_Tierno_Galvan,_Culleredo,_escultor_Ramon_Conde_2.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/450px-Busto_Enrique_Tierno_Galvan,_Culleredo,_escultor_Ramon_Conde_2.jpg" alt="">
 										<div class="caption">
 											Tierno Galván
 											<small>Culleredo - 2004</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/56980465.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/56980465.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/56980465.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/56980465.jpg" alt="">
 										<div class="caption">
 											Ánxel Fole
 											<small>Lugo - 2000</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/450px-P1170799_A_acarrexadora,_Ramon_Conde,_Marin.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/450px-P1170799_A_acarrexadora,_Ramon_Conde,_Marin.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/450px-P1170799_A_acarrexadora,_Ramon_Conde,_Marin.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/450px-P1170799_A_acarrexadora,_Ramon_Conde,_Marin.jpg" alt="">
 										<div class="caption">
 											«A Acarrexadora»
 											<small>Marín - 2007</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/800px-Alegoria_de_la_vida_y_la_muerte_Ramon_Conde_As_Pontes_1995.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/800px-Alegoria_de_la_vida_y_la_muerte_Ramon_Conde_As_Pontes_1995.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/800px-Alegoria_de_la_vida_y_la_muerte_Ramon_Conde_As_Pontes_1995.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/800px-Alegoria_de_la_vida_y_la_muerte_Ramon_Conde_As_Pontes_1995.jpg" alt="">
 										<div class="caption">
 											Alegoría de la vida y la muerte
 											<small>As Pontes de García Rodríguez (cementerio) - 1992</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Arco.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Arco.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Arco.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Arco.jpg" alt="">
 										<div class="caption">
 											Arco
 											<small>Ourense (Polígono Industrial Pereiro de Aguiar) - 1997</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Ariadna.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Ariadna.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Ariadna.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Ariadna.jpg" alt="">
 										<div class="caption">
 											Ariadna
 											<small>Lugo (Escuela Politécnica Superior) - 1988</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Avance.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Avance.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Avance.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Avance.jpg" alt="">
 										<div class="caption">
 											Avance
 											<small>Cangas - 2005</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/CocheRamon031.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/CocheRamon031.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/CocheRamon031.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/CocheRamon031.jpg" alt="">
 										<div class="caption">
 											Homenaje a Colemán y Reverter
 											<small>Ourense - 2006</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Columpio.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Columpio.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Columpio.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Columpio.jpg" alt="">
 										<div class="caption">
 											Columpio
 											<small>Culleredo - 1998</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Corredor1.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Corredor1.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Corredor1.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Corredor1.jpg" alt="">
 										<div class="caption">
 											Corredor
 											<small>Vigo - 2010</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/DSC00384.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/DSC00384.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/DSC00384.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/DSC00384.jpg" alt="">
 										<div class="caption">
 											La Lechera
 											<small>Ourense (Calle del Paseo) - 1999</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Despertar.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Despertar.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Despertar.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Despertar.jpg" alt="">
 										<div class="caption">
 											Despertar
 											<small>A Coruña (Centro Comercial Cuatro Caminos) - 1986</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Ferro_couselo_2-2.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Ferro_couselo_2-2.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Ferro_couselo_2-2.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Ferro_couselo_2-2.jpg" alt="">
 										<div class="caption">
 											Ferro Couselo
 											<small>Ourense - 1996</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Fiel_Contraste.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Fiel_Contraste.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Fiel_Contraste.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Fiel_Contraste.jpg" alt="">
 										<div class="caption">
 											Fiel Contraste
 											<small>Pontevedra - 2010</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Fonseca.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Fonseca.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Fonseca.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Fonseca.jpg" alt="">
 										<div class="caption">
 											Alonso III de Fonseca
 											<small>Santiago (Claustro de Pazo de Fonseca) - 1995</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Fuente.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Fuente.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Fuente.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Fuente.jpg" alt="">
 										<div class="caption">
 											La Fuente
 											<small>Santiago de Compostela - 1999</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Guardian.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Guardian.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Guardian.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Guardian.jpg" alt="">
 										<div class="caption">
 											Guardían
 											<small>A Coruña (Parque de la Torre de Hércules) - 1994</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/IMG_3003.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/IMG_3003.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/IMG_3003.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/IMG_3003.jpg" alt="">
 										<div class="caption">
 											Arco de Triunfo
 											<small>Lugo - 2007</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Macias_o_namorado._Padron._Galiza.PA12.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Macias_o_namorado._Padron._Galiza.PA12.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Macias_o_namorado._Padron._Galiza.PA12.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Macias_o_namorado._Padron._Galiza.PA12.jpg" alt="">
 										<div class="caption">
 											Macías «O Namorado»
 											<small>Padrón - 2003</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Manuel_Antonio.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Manuel_Antonio.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Manuel_Antonio.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Manuel_Antonio.jpg" alt="">
 										<div class="caption">
 											Manuel Antonio
 											<small>Rianxo - 2000</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Paternidad.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Paternidad.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Paternidad.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Paternidad.jpg" alt="">
 										<div class="caption">
 											La Cueva
 											<small>A Coruña (Plaza de la Sagrada Familia) - 1987</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Paternidad2.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Paternidad2.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Paternidad2.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Paternidad2.jpg" alt="">
 										<div class="caption">
 											Paternidad
 											<small>A Coruña (Rectorado) - 1994</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Pementeira.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Pementeira.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Pementeira.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Pementeira.jpg" alt="">
 										<div class="caption">
 											«A Pementeira»
 											<small>Padrón - 2002</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Ramones.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Ramones.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Ramones.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Ramones.jpg" alt="">
 										<div class="caption">
 											
 											<small></small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Rederos2.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Rederos2.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Rederos2.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Rederos2.jpg" alt="">
 										<div class="caption">
 											Los Rederos
 											<small>(Gran Vía) - 1991</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Titan.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Titan.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Titan.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Titan.jpg" alt="">
 										<div class="caption">
 											El Titán
 											<small>Vigo (Hospital Álvaro Cunqueiro) - 2017</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/viexina.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/viexina.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/viexina.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/viexina.jpg" alt="">
 										<div class="caption">
 											Homenaje al marinero desaparecido
 											<small>Muros - 1989</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Manconman.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Manconman.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Manconman.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Manconman.jpg" alt="">
 										<div class="caption">
 											Man con man
 											<small>Vilagarcía de Arousa - 2004</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Graninquisidor.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Graninquisidor.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Graninquisidor.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Graninquisidor.jpg" alt="">
 										<div class="caption">
 											Gran Inquisidor
 											<small>Vigo (Centro Comercial Camelias) - 1989</small>
 										</div>
 									</div>
 								</div>
-								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Hombredepie.jpg">
+								<div class="portfolio publica" data-cat="publica" data-src="images/Ramon_Conde/work/Obra_publica/Hombredepie.jpg" data-inter-pos-x="0" data-inter-pos-y="0" data-final-pos-x="0" data-final-pos-y="0" style="transition: all 600ms ease 0ms, opacity 600ms linear; display: inline-block; transform: translate(0px, 0px);" data-bound="true">
 									<div class="portfolio-wrapper">
-										<img src="images/Ramon_Conde/work/Obra_publica/Hombredepie.jpg" alt="" />
+										<img src="images/Ramon_Conde/work/Obra_publica/Hombredepie.jpg" alt="">
 										<div class="caption">
 											Hombre de pie
 											<small>Ourense (Parque Miño) - 1996</small>
@@ -771,7 +785,7 @@
 							<li><a href="https://www.youtube.com/user/ramoncondeescultor" target="_blank"><em class="fa fa-youtube-play"></em></a></li>
 						</ul>
 						<ul class="footer-links inline-list">
-							<li>© Ramón Conde 2019 | All rights reserved..</li>
+							<li>&copy; Ramón Conde 2020 | All rights reserved.</li>
 						</ul>
 					</div>
 				</div><!-- .row  -->
