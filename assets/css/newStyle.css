@@ -443,7 +443,6 @@ video {
   color: #716464;
   font-family: 'Quicksand', sans-serif;
   font-family: 'Open Sans', sans-serif;
-  border-radius: 24px;
 }
 /* ***** */
 .timeline-about {
@@ -461,6 +460,7 @@ video {
   /* background: #ececec; */
   
 }
+
 .content-wrap section {
   padding-top: 0px;
 }
@@ -676,7 +676,7 @@ video {
       padding-top: 15px;
   }
   .latest-news .item{
-    width:600px;
+    width:500px;
     margin: 0 auto;
     
   }
