@@ -179,6 +179,10 @@ p,
 .insta iframe{
     height:430px !important
 }
+.css-1dbjc4n{
+    height:430px !important;
+    max-height:430px !important;
+}
 
 
 @media screen and (min-width: 768px){
