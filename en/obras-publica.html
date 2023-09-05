@@ -438,6 +438,18 @@
 			$(".showcase .col-md-4, .showcase .col-md-3 ").hover3d({
 				selector: ".wrap"
 			});
+
+					
+			// Work Gallery Init
+			$(document).ready(function () {
+				$('#lightgallery').lightGallery({
+					selector: '.portfolio',
+					pager: false,
+					download: false,
+					progressBar: true,
+					zoom: false
+				});
+			});
 		</script>
 		<script>
 			$(function () {

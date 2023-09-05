@@ -351,16 +351,6 @@
 		});
 	});
 
-	// Work Gallery Init
-	$(document).ready(function () {
-		$('#lightgallery').lightGallery({
-			selector: '.portfolio',
-			pager: false,
-			download: false,
-			progressBar: true,
-			zoom: false
-		});
-	});
 	var owl = $('.header-owl-carousel');
 	owl.owlCarousel({
 		nav: false,
